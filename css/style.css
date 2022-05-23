@@ -1,0 +1,114 @@
+/*
+	Title color: rgb(255,0,0);
+	Navigation Color: rgb(220, 51, 106);
+	Header Color: rgb(255, 165, 0);
+	Text Color: rgb(255, 105, 180);
+	font-family: helvetica;
+	font-family: 'Lato', sans-serif;
+*/
+
+p {
+	color: rgb(200,105,180);
+	font-weight: 700;
+}
+
+body {
+	color:white;
+	background: rgba(0,0,0,1);
+	font-size:12pt;
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	color: rgb(255, 165, 0);
+}
+
+header {
+	font-family: helvetica, sans-serif;
+	background: linear-gradient(to bottom, black, rgba(150,0,50,0.3), black);
+}
+
+main {
+/*	background: linear-gradient(to bottom, black, rgba(150,0,50,0.5), black);
+*/}
+
+.footer-images {
+	height:3vh;
+	opacity: 0.5;
+	-webkit-transition: opacity 250ms linear;
+	-moz-transition: opacity 250ms linear;
+	-o-transition: opacity 250ms linear;
+}
+
+.footer-images:hover{
+	opacity: 1;
+}
+
+.navigation-link {
+	color:rgb(220, 51, 106);
+	font-weight:bold;
+	font-size:14pt;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+	-webkit-transition: color 250ms ease-in-out;
+	-moz-transition: color 250ms ease-in-out;
+	-o-transition: color 250ms ease-in-out;
+}
+
+.navigation-link:hover{
+	color: rgb(171,36,170);
+}
+
+.navigation-link:active{
+	color: rgb(220,76,170);
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0, 1, auto;
+}
+
+#logo {
+	width: 50px;
+	float: left;
+	-webkit-transition: background-color 250ms linear;
+	-moz-transition: background-color 250ms linear;
+	-o-transition: background-color 250ms linear;
+	display: flex;
+  	align-items: center;
+  	flex: 0, 1, auto;
+}
+
+#logo:hover {
+	background-color: rgba(255,0,0,0.8);
+}
+
+#navigation-bar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0, 1, auto;
+	background-color: rgba(255,255,255, 0.1);
+	margin: 10px 0px 10px 0;
+}
+
+#title {
+	color:rgb(255,0,0);
+	font-size:24pt;
+	font-weight:bold;
+	text-align: center;
+	margin-right: 50px;
+}
+
+/*@keyframes title-animation{
+	from{color: black}
+	to{color: red}
+}
+
+@keyframes navigation-animation{
+	from{color: black}
+	to{color: rgb(220, 51, 106)}
+}
+*/
