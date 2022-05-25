@@ -33,7 +33,7 @@ main {
 */}
 
 .footer-images {
-	height:3vh;
+	height:1.5em;
 	opacity: 0.5;
 	-webkit-transition: opacity 250ms linear;
 	-moz-transition: opacity 250ms linear;
@@ -73,12 +73,13 @@ main {
 #logo {
 	width: 50px;
 	float: left;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	flex: 0, 1, auto;
 	-webkit-transition: background-color 250ms linear;
 	-moz-transition: background-color 250ms linear;
 	-o-transition: background-color 250ms linear;
-	display: flex;
-  	align-items: center;
-  	flex: 0, 1, auto;
 }
 
 #logo:hover {
@@ -98,7 +99,10 @@ main {
 	color:rgb(255,0,0);
 	font-size:24pt;
 	font-weight:bold;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0, 1, auto;
 	margin-right: 50px;
 }
 
