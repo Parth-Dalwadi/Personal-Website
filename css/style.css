@@ -5,12 +5,14 @@
 	font-family: helvetica;
 	font-family: 'Lato', sans-serif;
 */
+
+/*			Element Selectors			*/
 html {
-	height: 100%;
+      overflow-y: auto;
 }
 
 body {
-	height: 100%;
+	margin: 0;
 	color: rgba(50, 180, 100, 1);
 	background: rgba(0,0,0,1);
 	font-size:12pt;
@@ -26,12 +28,18 @@ h1 {
 header {
 	font-family: helvetica, sans-serif;
 	background: linear-gradient(to bottom right, black, black, rgba(0,100,0,0.3), black);
+	margin-top: -20px;
+}
+
+main {
+	margin: 0 20px;
 }
 
 p {
 	/*font-weight: 700;*/
 }
 
+/*			Classes			*/
 .footer-images {
 	height: 1em;
 	opacity: 0.5;
@@ -63,6 +71,7 @@ p {
 	color: rgba(40, 200, 40, 1);
 }
 
+/*			IDs			*/
 #footer{
 	display: flex;
 	justify-content: center;
@@ -78,6 +87,7 @@ p {
   	align-items: center;
   	flex: 0, 1, auto;
   	opacity: 1;
+  	margin-left: 15px;
 	-webkit-transition: opacity 250ms linear;
 	-moz-transition: opacity 250ms linear;
 	-o-transition: opacity 250ms linear;
@@ -94,7 +104,7 @@ p {
 	flex: 0, 1, auto;
 	flex-wrap: wrap;
 	background-color: rgba(255,255,255, 0.1);
-	margin: 10px 0px 10px 0;
+	margin-top: -14px;
 }
 
 #title {
@@ -102,8 +112,10 @@ p {
 	font-size:24pt;
 	font-weight:bold;
 	text-align: center;
-	margin-right: 45px;
+	margin-right: 60px;
 }
+
+/*			Media Queries			*/
 
 @media(max-width: 400px){ 
 	body{
@@ -124,11 +136,12 @@ p {
 
   	#logo{
   		width: 35px;
+  		margin-left: 15px;
   	}
 
   	#title{
   		font-size: 20pt;
-  		margin-right: 35px;
+  		margin-right: 50px;
   	}
 }
 
@@ -142,6 +155,10 @@ p {
 		font-size: 14pt;
 	}
 
+	header{
+		margin-top: -15px;
+	}
+
   	.footer-images{
   		height: 1em;
   	}
@@ -152,6 +169,7 @@ p {
 
   	#logo{
   		width: 30px;
+  		transform: scale(0.9);
   	}
 
   	#title{
@@ -160,25 +178,24 @@ p {
   	}
 }
 
-/* width */
+/*			Scrollbar			*/
 ::-webkit-scrollbar {
   	width: 10px;
 }
 
- 
-/* Handle */
+
 ::-webkit-scrollbar-thumb {
  	background: rgba(150,255,50,0.7); 
   	border-radius: 10px;
   	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
 	 background: rgba(150,255,50,.5); 
 }
 
-
+/*			Keyframe Animations			*/
 /*@keyframes title-animation{
 	from{color: black}
 	to{color: red}
