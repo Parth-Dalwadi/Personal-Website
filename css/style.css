@@ -9,15 +9,23 @@
 /*			Element Selectors			*/
 
 body {
-	margin: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0 0 100px;
+	padding: 0;
 	color: rgba(50, 180, 100, 1);
 	background: rgba(0,0,0,1);
 	font-size:12pt;
 	font-family: 'Lato', sans-serif;
+	background: black;
 }
 
 footer{
-	background: linear-gradient(to bottom left, black, black, rgba(0,100,0,0.3), black);
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
 }
 
 h1 {
@@ -33,7 +41,9 @@ header {
 }
 
 html {
-      overflow-y: auto;
+	position: relative;
+    min-height: 100%;
+    overflow-y: auto;
 }
 
 main {
@@ -84,7 +94,7 @@ p {
 	grid-template-columns: auto auto auto;
 	grid-template-rows: auto;
 	justify-content: center;
-	align-content: start;
+	align-content: center;
 	grid-column-gap: 20px;
 }
 
@@ -120,7 +130,7 @@ p {
 	text-align: center;
 	color:rgba(150,255,180,0.9);
 	font-family: helvetica;
-	background-color: rgba(255,255,255, 0.1);
+	background: linear-gradient(to right, rgba(0,100,0,0.3), rgba(0,100,0,0.5), rgba(0,100,0,0.3));
 	font-size:10pt;
 }
 
@@ -142,6 +152,10 @@ p {
 		font-size: 16pt;
 	}
 
+	footer{
+		height: 75px;
+	}
+
   	.navigation-link{
   		font-size: 9pt;
   	}
@@ -154,6 +168,10 @@ p {
   	#title{
   		font-size: 20pt;
   		margin-right: 50px;
+  	}
+
+  	#social-links{
+  		font-size: 7pt;
   	}
 }
 
@@ -171,6 +189,10 @@ p {
 		margin-top: -15px;
 	}
 
+	footer{
+		height: 50px;
+	}
+
   	.navigation-link{
   		font-size: 7pt;
   	}
@@ -184,6 +206,15 @@ p {
   		font-size: 18pt;
   		margin-right: 30px;
   	}
+
+  	#social-links{
+  		font-size: 5pt;
+  	}
+
+  	.footer-images{
+  		height: 10px
+  	}
+
 }
 
 /*			Scrollbar			*/
