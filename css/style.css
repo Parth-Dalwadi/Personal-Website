@@ -146,6 +146,7 @@ p {
 @media(max-width: 400px){ 
 	body{
 		font-size: 9pt;
+		margin: 0 0 75px;
 	}
 
 	h1 {
@@ -158,6 +159,10 @@ p {
 
   	.navigation-link{
   		font-size: 9pt;
+  	}
+
+  	.footer-images{
+  		height: 12px;
   	}
 
   	#logo{
@@ -179,6 +184,7 @@ p {
 @media(max-width: 320px){ 
 	body{
 		font-size: 7pt;
+		margin: 0 0 50px;
 	}
 
 	h1 {
@@ -192,6 +198,10 @@ p {
 	footer{
 		height: 50px;
 	}
+
+	.footer-images{
+  		height: 10px;
+  	}
 
   	.navigation-link{
   		font-size: 7pt;
@@ -209,10 +219,6 @@ p {
 
   	#social-links{
   		font-size: 5pt;
-  	}
-
-  	.footer-images{
-  		height: 10px
   	}
 
 }
