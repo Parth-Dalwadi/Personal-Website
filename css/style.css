@@ -73,7 +73,7 @@ p {
 	font-weight:bold;
 	font-size:12pt;
 	text-decoration: none;
-	margin-right: 20px;
+	margin: 0 10px;
 	-webkit-transition: color 250ms ease-in-out;
 	-moz-transition: color 250ms ease-in-out;
 	-o-transition: color 250ms ease-in-out;
@@ -98,9 +98,6 @@ p {
 	grid-column-gap: 20px;
 }
 
-#last-nav-link{
-	margin-right: 0px;
-}
 
 #logo {
 	width: 45px;
