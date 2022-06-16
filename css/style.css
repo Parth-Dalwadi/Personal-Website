@@ -60,7 +60,6 @@ p {
 	-webkit-transition: opacity 250ms linear, transform 300ms linear;
 	-moz-transition: opacity 250ms linear, transform 300ms linear;
 	-o-transition: opacity 250ms linear, transform 300ms linear;
-/*	margin-bottom: 40px;*/
 }
 
 .footer-images:hover{
@@ -86,6 +85,31 @@ p {
 
 .navigation-link:active{
 	color: rgba(40, 200, 40, 1);
+}
+
+.video-game-header{
+	color:rgba(100, 255, 200, 1);
+	text-align: center;
+}
+
+.video-game-images{
+	width: 200px;
+	border: 5px double green;
+	display: inline;
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+
+.video-game-navigation{
+	color:rgba(144, 238, 144, 0.75);
+	font-weight:bold;
+	font-size:12pt;
+	text-decoration: none;
+	margin: 0 10px;
+	-webkit-transition: color 250ms ease-in-out;
+	-moz-transition: color 250ms ease-in-out;
+	-o-transition: color 250ms ease-in-out;
+	column-gap: 10px;
 }
 
 /*			IDs			*/
@@ -147,6 +171,10 @@ p {
 @media(max-width: 750px){
 	.navigation-link{
   		font-size: 10pt;
+  	}
+
+  	.video-game-images{
+  		width: 100px;
   	}
 }
 
@@ -289,6 +317,10 @@ p {
 ::-webkit-scrollbar-thumb:hover {
 	 background: rgba(150,255,50,.5); 
 }
+
+/*::-webkit-scrollbar-track{
+	background: rgba(150,255,50,0.2); 
+}*/
 
 /*			Keyframe Animations			*/
 /*@keyframes title-animation{
