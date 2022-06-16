@@ -19,6 +19,14 @@ body {
 	background: black;
 }
 
+br {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    -o-user-select: none; /* Opera */
+    user-select: none; /* Standard */
+}
+
 footer{
 	position: absolute;
     left: 0;
@@ -50,7 +58,6 @@ main {
 }
 
 p {
-	text-align: justify;
 	margin: 0 220px;
 }
 
@@ -100,23 +107,9 @@ sup {
 .video-game-images{
 	width: 200px;
 	border: 5px double green;
-	float: right;
-	margin-left: 5px;
-	clear: both;
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
-}
-
-.video-game-navigation{
-	color:rgba(144, 238, 144, 0.75);
-	font-weight:bold;
-	font-size:12pt;
-	text-decoration: none;
-	margin: 0 10px;
-	-webkit-transition: color 250ms ease-in-out;
-	-moz-transition: color 250ms ease-in-out;
-	-o-transition: color 250ms ease-in-out;
-	column-gap: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*			IDs			*/
@@ -175,6 +168,15 @@ sup {
 }
 
 /*			Media Queries			*/
+/*$smartphones: 320px
+$ereaders: 481px
+$portraittablets: 641px;
+$tablet: 961px;
+$laptop: 1025px;
+$desktop: 1281px;*/
+
+
+
 @media(max-width: 750px){
 	.navigation-link{
   		font-size: 10pt;
@@ -182,6 +184,10 @@ sup {
 
   	.video-game-images{
   		width: 75px;
+  	}
+
+  	p{
+  		margin: 0 0;
   	}
 }
 
