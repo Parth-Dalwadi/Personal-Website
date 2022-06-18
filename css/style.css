@@ -197,12 +197,23 @@ $desktop: 1281px;*/
   	}
 
   	.video-game-images{
-  		width: 75px;
+  		display: none !important;
   	}
 
   	p{
   		margin: 0 0;
   	}
+
+  	iframe{
+  		width: 100%;
+  		border: none;
+  	}
+
+  	::-webkit-scrollbar {
+  		width: 0px;
+	}
+
+
 }
 
 @media(max-width: 625px){
