@@ -71,11 +71,6 @@ ul{
 	margin-right: 220px;
 }
 
-ol{
-	margin-left: auto;
-	margin-right: auto;
-}
-
 main {
 	margin: 0 20px;
 }
@@ -128,7 +123,7 @@ sup {
 }
 
 .video-game-images{
-	width: 200px;
+	width: 175px;
 	border: 5px double rgba(100, 255, 200, 1);
 	display: block;
 	margin-left: auto;
@@ -198,45 +193,60 @@ $tablet: 961px;
 $laptop: 1025px;
 $desktop: 1281px;*/
 
-
-
-@media(max-width: 750px){
-	.navigation-link{
-  		font-size: 10pt;
-  	}
-
-  	.video-game-images{
-  		display: none !important;
-  	}
-
-  	p{
-  		margin: 0 0;
-  	}
+@media(max-width: 1025px){
+	p{
+		margin: 0 160px;
+	}
 
 	ul{
-		margin-left: -15px;
-		margin-right: -15px;
+		margin-left: 155px;
 	}
 
-  	iframe{
-  		width: 100%;
-  		border: none;
-  	}
+	.video-game-images{
+		width: 125px;
+	}
+}
 
-  	sup{
-  		font-size: 6pt;
-  	}
-
-  	::-webkit-scrollbar {
-  		width: 0px;
+@media(max-width: 961px){
+	body{
+		font-size: 16pt;
 	}
 
+	p{
+		margin: 0 50px;
+	}
+
+	ul{
+		margin-left: 50px;
+	}
+
+	.video-game-images{
+		display: none !important;
+	}
 
 }
 
-@media(max-width: 625px){
+@media(max-width: 720px){
+	body{
+		font-size: 12pt;
+	}
+
+	p{
+		margin: 0 0;
+	}
+
+	iframe{
+		width: 100%;
+		border: none;
+	}
+
+	ul{
+		margin-left: -5px;
+		margin-right: 0;
+	}
+
 	.navigation-link{
-		font-size: 8pt;
+		font-size: 10pt;
 	}
 
 	#social-links{
@@ -244,75 +254,65 @@ $desktop: 1281px;*/
 	}
 }
 
-@media(max-width: 450px){
-	header{
-		margin-top: -15px;
-	}
-
-	h1{
-		font-size: 16pt;
-	}
-
+@media(max-width: 540px){
 	.navigation-link{
-  		font-size: 10pt;
-  	}
-
-	#navigation-bar{
-  		margin-top: -14px;
-  	}
+		font-size: 8pt;
+	}
 
 	#logo{
-		width: 30px;
-		margin-left: 15px;
-	}
+  		width: 40px;
+  		margin-left: 15px;
+  	}
+
 
 	#title{
-		font-size: 18pt;
-		margin-right: 45px;
-	}
+  		font-size: 22pt;
+  		margin-right: 55px;
+  	}
 }
 
-@media(max-width: 400px){ 
+@media(max-width: 481px){
 	body{
-		font-size: 9pt;
 		margin: 0 0 75px;
 	}
 
 	h1 {
-		font-size: 14pt;
+		font-size: 16pt;
 	}
 
-	footer{
-		height: 75px;
+	header{
+		margin-top: -15px;
 	}
 
-  	.navigation-link{
-  		font-size: 9pt;
-  	}
+	sup{
+		font-size: 8pt;
+	}
 
-  	.footer-images{
-  		height: 12px;
-  	}
+	ul{
+		margin-left: -5px;
+		margin-right: 0;
+	}
+
+	.navigation-link{
+		font-size: 9pt;
+	}
 
   	#logo{
   		width: 30px;
   		margin-left: 15px;
   	}
 
-  	#title{
+
+	#title{
   		font-size: 18pt;
   		margin-right: 45px;
-  	}
-
-  	#social-links{
-  		font-size: 7pt;
   	}
 }
 
 
 @media(max-width: 320px){ 
 	body{
-		font-size: 7pt;
+		font-size: 8pt;
 		margin: 0 0 50px;
 	}
 
@@ -333,8 +333,8 @@ $desktop: 1281px;*/
 	}
 
 	ul{
-		margin-left: -20px;
-		margin-right: -20px;
+		margin-left: -15px;
+		margin-right: 0;
 	}
 
 	.footer-images{
@@ -347,8 +347,7 @@ $desktop: 1281px;*/
 
   	#logo{
   		width: 22.5px;
-  		/*transform: scale(1.1);*/
-  		margin-left: 15px;
+  		margin-left: 10px;
   	}
 
   	#navigation-bar{
@@ -357,7 +356,7 @@ $desktop: 1281px;*/
 
   	#title{
   		font-size: 14pt;
-  		margin-right: 37.5px;
+  		margin-right: 32.5px;
   	}
 
   	#social-links{
