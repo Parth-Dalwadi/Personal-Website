@@ -16,6 +16,10 @@ body {
 	background: rgba(0,0,0,1);
 	font-size:14pt;
 	font-family: 'Lato', sans-serif;
+	-webkit-animation: opacity-animation 1s ease-in 0s 1 normal;
+	-moz-animation: opacity-animation 1s ease-in 0s 1 normal;
+	-ms-animation: opacity-animation 1s ease-in 0s 1 normal;
+	-o-animation: opacity-animation 1s ease-in 0s 1 normal;
 }
 
 br {
@@ -59,6 +63,7 @@ iframe{
 	border: 5px solid rgba(0,255,0,0.3);
 	-webkit-transition: border-color 250ms linear, transform 300ms linear;
 	-moz-transition: border-color  250ms linear, transform 300ms linear;
+	-ms-transition: border-color 250ms linear, transform 300ms linear;
 	-o-transition: border-color 250ms linear, transform 300ms linear;
 }
 
@@ -89,6 +94,7 @@ sup {
 	opacity: 0.7;
 	-webkit-transition: opacity 250ms linear, transform 300ms linear;
 	-moz-transition: opacity 250ms linear, transform 300ms linear;
+	-ms-transition: opacity 250ms linear, transform 300ms linear;
 	-o-transition: opacity 250ms linear, transform 300ms linear;
 }
 
@@ -105,6 +111,7 @@ sup {
 	margin: 0 10px;
 	-webkit-transition: color 250ms ease-in-out;
 	-moz-transition: color 250ms ease-in-out;
+	-ms-transition: color 250ms ease-in-out;
 	-o-transition: color 250ms ease-in-out;
 }
 
@@ -151,6 +158,7 @@ sup {
   	margin-left: 15px;
 	-webkit-transition: opacity 250ms linear;
 	-moz-transition: opacity 250ms linear;
+	-ms-transition: opacity 250ms linear;
 	-o-transition: opacity 250ms linear;
 }
 
@@ -392,13 +400,9 @@ $desktop: 1281px;*/
 }
 
 /*			Keyframe Animations			*/
-/*@keyframes title-animation{
-	from{color: black}
-	to{color: red}
+@keyframes opacity-animation{
+	from{opacity: 0}
+	to{opacity: 1}
 }
 
-@keyframes navigation-animation{
-	from{color: black}
-	to{color: rgb(220, 51, 106)}
-}
-*/
+
