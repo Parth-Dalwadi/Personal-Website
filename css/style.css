@@ -106,7 +106,6 @@ sup {
 	-webkit-transition: color 250ms ease-in-out;
 	-moz-transition: color 250ms ease-in-out;
 	-o-transition: color 250ms ease-in-out;
-	column-gap: 10px;
 }
 
 .navigation-link:hover{
@@ -186,8 +185,9 @@ sup {
 }
 
 /*			Media Queries			*/
-/*$smartphones: 320px
-$ereaders: 481px
+/*$smartphones: 320px;
+$ereaders: 481px;
+$surfaceduo:  540px;
 $portraittablets: 641px;
 $tablet: 961px;
 $laptop: 1025px;
@@ -294,7 +294,8 @@ $desktop: 1281px;*/
 	}
 
 	.navigation-link{
-		font-size: 9pt;
+		margin: 0 5px;
+		font-size: 7.5pt;
 	}
 
   	#logo{
@@ -342,7 +343,7 @@ $desktop: 1281px;*/
   	}
 
   	.navigation-link{
-  		font-size: 7pt;
+  		font-size: 6pt;
   	}
 
   	#logo{
