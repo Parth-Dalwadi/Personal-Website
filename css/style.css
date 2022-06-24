@@ -128,12 +128,12 @@ sup {
 	color: rgba(40, 200, 40, 1);
 }
 
-.video-game-header{
+.list-ranking-header{
 	color:rgba(100, 255, 200, 1);
 	text-align: center;
 }
 
-.video-game-images{
+.list-images{
 	width: 175px;
 	border: 5px double rgba(100, 255, 200, 1);
 	display: block;
@@ -220,7 +220,7 @@ $desktop: 1281px;*/
 		margin-right: 160px;
 	}
 
-	.video-game-images{
+	.list-images{
 		width: 125px;
 	}
 }
@@ -243,7 +243,7 @@ $desktop: 1281px;*/
 		margin-left: 50px;
 	}
 
-	.video-game-images{
+	.list-images{
 		display: none !important;
 	}
 
