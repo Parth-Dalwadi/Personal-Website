@@ -89,11 +89,6 @@ sup {
 }
 
 /*			Classes			*/
-.default-header{
-	margin-left: 220px;
-	margin-right: 220px;
-}
-
 .footer-images {
 	height: 14px;
 	opacity: 0.7;
@@ -215,11 +210,6 @@ $desktop: 1281px;*/
 		margin-left: 155px;
 	}
 
-	.default-header{
-		margin-left: 160px;
-		margin-right: 160px;
-	}
-
 	.list-images{
 		width: 125px;
 	}
@@ -232,11 +222,6 @@ $desktop: 1281px;*/
 
 	p{
 		margin: 0 50px;
-	}
-
-	.default-header{
-		margin-left: 50px;
-		margin-right: 50px;
 	}
 
 	ul{
@@ -256,11 +241,6 @@ $desktop: 1281px;*/
 
 	p{
 		margin: 0 0;
-	}
-
-	.default-header{
-		margin-left: 0;
-		margin-right: 0;
 	}
 
 	iframe{
