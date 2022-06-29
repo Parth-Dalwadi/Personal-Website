@@ -45,7 +45,6 @@ h1 {
 }
 
 header {
-/*	background: linear-gradient(to bottom right, black, black, rgba(0,100,0,0.3), black);*/
 	font-family: helvetica, sans-serif;
 	margin-top: -20px;
 }
@@ -246,6 +245,10 @@ $desktop: 1281px;*/
 	iframe{
 		width: 100%;
 		border: none;
+	}
+
+	sup{
+		font-size: 8pt;
 	}
 
 	ul{
